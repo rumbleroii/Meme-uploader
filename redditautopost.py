@@ -71,7 +71,7 @@ for submission in subreddit:
             file_name+='_video.mp4'
             
 
-        picture_path = 'C:/Users/mrith/OneDrive/Desktop/Instagram Bot Project/Main/amongus/'+ file_name
+        picture_path = ' '+ file_name
 
         if found == True:
             if post_type == 'video':
@@ -87,7 +87,7 @@ for submission in subreddit:
                     continue
 
                 finally:
-                    upload_status = bot.upload_video(picture_path , caption="""Follow for more AMONG US memes \nBy: u/{}\n
+                    upload_status = bot.upload_video(picture_path , caption="""Follow for more memes \nBy: u/{}\n
                                                 #love #TagsForLikes #TagsForLikesApp #TFLers #tweegram #photooftheday #20likes #amazing #meme #dankmemes #gamingmemes #memes #amongus #amongusmemes #amongusmemes #among""".format(redditor_name))
                         
                     if upload_status:
@@ -103,7 +103,7 @@ for submission in subreddit:
                 try:
                     urllib.request.urlretrieve(url , picture_path)
                     print('picture saved')
-                    upload_status = bot.upload_photo('C:/Users/mrith/OneDrive/Desktop/Instagram Bot Project/Main/amongus/'+ file_name , caption="""Follow for more AMONG US memes \nBy: u/{}\n
+                    upload_status = bot.upload_photo(' '+ file_name , caption="""Follow for more  memes \nBy: u/{}\n
                                             #love #TagsForLikes #TagsForLikesApp #TFLers #tweegram #photooftheday #20likes #amazing #meme #dankmemes #gamingmemes #memes #amongus #amongusmemes #amongusmemes #among""".format(redditor_name))
 
                     if upload_status:
