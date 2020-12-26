@@ -1,4 +1,4 @@
-#Written by scoppy the lord
+#Written by Rithik Marudappa ( aka scoopy , aka rumbleroii )
 
 
 
